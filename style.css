@@ -1,0 +1,61 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 3rem;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    display: inline-block;
+    transition: transform .1s ease-in-out;
+    padding-top: 0.5rem;
+}
+
+li:hover{
+    transform: scale(1.1);
+    height: 2.5rem;
+}
+
+.menu{
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+}
+
+.menu:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-decoration: bold;
+}
+
+.left{
+    background-image: url("./images/about_opt2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: blur(3px);
+    opacity: 0.7;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.right{
+    margin-top: 12rem;
+}
+
+.right-text{
+    text-align: left;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
