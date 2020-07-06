@@ -10,13 +10,17 @@ ul{
     overflow: hidden;
 }
 
-li{
+h4{
+    margin-top: 1rem;
+}
+
+.nav-buttons{
     display: inline-block;
     transition: transform .1s ease-in-out;
     padding-top: 0.5rem;
 }
 
-li:hover{
+.nav-buttons:hover{
     transform: scale(1.1);
     height: 2.5rem;
 }
@@ -29,7 +33,7 @@ li:hover{
 
 .menu:hover{
     text-decoration: none;
-    background-color: black;
+    background-color: #63A994;
     color: white;
     text-decoration: bold;
 }
@@ -42,10 +46,12 @@ li:hover{
     padding: 0;
     min-height: 100vh;
     align-items: center;
+    border-left: solid 4rem #BFBD9E;
 }
 
 .right{
-    margin-top: 12rem;
+    padding-top: 12rem;
+    background-color: #BFBD9E;
 }
 
 .right-text{
@@ -56,4 +62,20 @@ li:hover{
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+.icons{
+    color: #42A1BA;
+    font-size: 3.5rem;
+    margin-top: 2rem;
+}
+
+.title{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #63C1A2;
+}
+
+.skills{
+    margin-top: 2rem;
 }
