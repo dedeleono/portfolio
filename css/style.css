@@ -35,10 +35,8 @@ li:hover{
 }
 
 .left{
-    background-image: url("./images/about_opt2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    filter: blur(3px);
     opacity: 0.7;
     margin: 0;
     padding: 0;
