@@ -1,6 +1,5 @@
 body{
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 ul{
@@ -44,9 +43,10 @@ h4{
     opacity: 0.7;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    height: 100vh;
     align-items: center;
     border-left: solid 4rem #BFBD9E;
+    overflow: auto;
 }
 
 .right{
@@ -97,3 +97,36 @@ h4{
 .skills{
     margin-top: 2rem;
 }
+
+.col{
+    min-height: 3rem;
+    display: flex;
+    padding-left: 2.5rem;
+}
+
+.card{
+    max-height: 100%;
+}
+
+.card-img-top{
+    height: 10rem;
+    width: 23rem;
+}
+
+/*scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
