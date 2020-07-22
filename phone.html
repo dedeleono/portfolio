@@ -12,13 +12,19 @@
 <body>
     <main>
         <!-- Landing Area -->
-        <div id="landing">
+        <div id="landing top">
           <div id="landing-text">
             <div id="landing-text-inner">
               <h1>Diego de León Oliva</h1>
-              <h2>Jr. Web Developer</h2>
+              <h2 style="padding-top: 0.5rem; padding-bottom: 1rem;">Jr. Web Developer</h2>
               <a href="#images" class="btn" id="view-work">
-                View Work
+                Portfolio
+              </a>
+              <a href="#images-1" class="btn" id="view-work">
+                About Me
+              </a>
+              <a href="#landing" class="btn" id="view-work">
+                Contact Me
               </a>
               <div id="icon-g">
                 <a href="https://github.com/dedeleono" target="_blank"><i class="fab fa-github icons"></i></a>
@@ -30,36 +36,43 @@
     
         <div id="images">
           <div id="header">
-            <h2>My Projects</h2>
+            <h2><strong>Recent Work</strong></h2>
           </div>
     
           <img src="./images/dog.PNG" alt="">
           <div class="caption">
             <h3>Tindog</h3>
             <p>Site built with HTML, CSS and Bootstrap</p>
+            <a href="https://github.com/dedeleono/tindog" target="_blank"><button type="button" class="btn btn-outline-dark">View Source Code</button></a>
           </div>
           <img src="./images/team.PNG" alt="">
           <div class="caption">
             <h3>Team Learn</h3>
-            <p>Learning Platform built with HTML, CSS and Bootstrap</p>
+            <p>Learning Platform built with HTML, CSS, Bootstrap and JavaScript</p>
+            <a href="https://github.com/dedeleono/teamlearn" target="_blank"><button type="button" class="btn btn-outline-dark">View Source Code</button></a>
           </div>
           <img src="./images/swipe.PNG" alt="">
           <div class="caption">
             <h3>Swipe App</h3>
             <p>App in development. Built with React.js</p>
+            <a href="https://github.com/IsraelSnchez/Swipe-app" target="_blank"><button type="button" class="btn btn-outline-dark">View Source Code</button></a>
           </div>
           <img src="./images/heroku.PNG" alt="">
           <div class="caption">
-            <h3>API and Database</h3>
+            <h3>API and Database deployed in Heroku</h3>
             <p>Database in MongoDB. Built with JavaScript, Node.js and Express.js</p>
+            <a href="https://github.com/dedeleono/Heroku-app" target="_blank"><button type="button" class="btn btn-outline-dark">View Source Code</button></a>
           </div>
 
         </div>
 
-        <div id="images">
+        <div id="images-1">
             <div id="header">
-                <h2>About Me</h2>
+                <h2><strong>About Me</strong></h2>
             </div>
+
+            <p class="about-text">I'm passionate about designing and building with code and challeging myself creatively.</p>
+            <p class="about-text">I like learning new skills, daily. Staying connected, and I believe that solid team-work is the key for success.</p>
 
             <div class="caption">
                 <span><i class="fas fa-cogs icons-a"></i></span>
@@ -76,8 +89,8 @@
                     <li>MongoDB</li>
                     <li>Mongoose</li>
                 </ul>
-<br>
-<br>
+                <br>
+                <br>
                 <span><i class="fas fa-user-cog icons-a"></i></span>
                 <h3>Other Skills</h3>
                 <ul class="skills">
@@ -89,18 +102,26 @@
             </div>
 
         </div>
+
+        <div id="landing">
+            <div id="landing-text">
+              <div id="landing-text-inner">
+                <h1 style="background-color: #8EC28A; color: white; padding: 0.5rem; margin-bottom: 2rem;;"><strong>Get in touch</strong></h1>
+                <p>Email:
+                    <Strong>dolivabs@gmail.com</Strong>
+                </p>
+                <p>Phone:
+                    <strong>(+502) 5693-8502</strong>
+                </p>
+                <div id="icon-f">
+                  <a href="https://github.com/dedeleono" target="_blank"><i class="fab fa-github icons-f"></i></a>
+                  <a href="mailto: dolivabs@gmail.com"><i class="fas fa-envelope icons-f"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
       </main>
-    
-      <footer>
-        <h3>Get In Touch</h3>
-        <p>Email or call us to set up a consult</p>
-        <p>Email:
-          <strong>contact@acmephotos.test</strong>
-        </p>
-        <p>Phone:
-          <strong>(617) 555-5555</strong>
-        </p>
-      </footer>
 </body>
 <script src="mobile.js"></script>
 </html>
