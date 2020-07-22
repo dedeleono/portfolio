@@ -123,82 +123,12 @@ h4{
   }
    
   /* Handle */
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #727472;  
     border-radius: 10px;
-  }
+}
   
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: black;
-  }
-
-  .mobile{
-      display: none;
-  }
-
-  /*Mobile Layout*/
-
-  @media only screen
-  and (min-device-width : 320px) 
-  and (max-device-width : 1024px){
-    .right{
-        display: none;
-    }
-
-    .left{
-        display: none;
-    }
-      
-    .mobile{
-        display: flex;
-    }
-
-    .secStyle{
-        width: 100%;
-        height: 1rem;
-        margin: 0;
-        padding: 0;
-    }
-
-    .Navbar__Items,.Navbar {
-        flex-direction: column;
-    }
-    
-    .Navbar__Items {
-        display:none;
-    }
-
-    .Navbar {
-        background-color: #172F3D;
-        width: 100%;
-        margin: 0;
-        padding: 1rem;
-        display: flex;
-        font-family: sans-serif;
-        color: white;
-    }
-
-    .Navbar__Link-brand {
-        align-self: flex-start;
-        margin: 0;
-        padding-top: 0.1rem;
-    }
-    
-    .Navbar__ToggleShow {
-        display: flex;
-    }
-    
-    .Navbar__Link-toggle {
-        align-self: flex-end;
-        display: initial;
-        position: absolute;
-        cursor: pointer;
-        margin: 0;
-        padding: 0;
-    } 
-
-    .Navbar__Link {
-        padding: 0.6rem;
-      }
 }
